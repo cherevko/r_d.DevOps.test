@@ -1,3 +1,6 @@
+# Local ignor and template files
+.gitignore
+.gitmessage
 # Local .terraform directories
 **/.terraform/*
 
