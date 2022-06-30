@@ -1,5 +1,5 @@
 #!/bin/bash
-file="$HOME/executable.txt"
+file="$HOME/executable.txt0"
 path="/etc"
 #check if exists and remove
 if [ -f $file ]; then
