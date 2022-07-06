@@ -5,6 +5,11 @@ dst="$HOME/cmd_names.txt"
 if [ -f $dst ]; then
     rm -f $dst
 fi
+#check if source file exists
+if ! [ -f $file ]; then
+    echo "Source file does not exist!"
+    exit 0
+fi
 #read the file line by line
 n=1
 while IFS= read -r ln; do
