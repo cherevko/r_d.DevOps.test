@@ -10,4 +10,5 @@ fi
 if [ -f $py_err ]; then
     rm -f $py_err
 fi
+#finding all '*.py' files
 find $path -type f -name *.py 1>$py_file 2>$py_err
